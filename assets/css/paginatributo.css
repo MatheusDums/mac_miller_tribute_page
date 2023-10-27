@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background: rgb(238,196,214);
+    background: linear-gradient(180deg, rgba(238,196,214,1) 29%, rgba(147,196,255,1) 57%, rgba(255,255,255,1) 100%);
+}
+
+
+.container {
+    display: flex;
+}
+
+#image_and_tittle {
+    display: block; 
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(147,196,255,1) 43%, rgba(238,196,214,1) 71%);
+}
+
+/* Cabeçalho */
+.tittle h1 { 
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.tittle h3 {
+    font-family: 'Mynerve';
+    font-size: 15px;
+    text-align: center;
+}
+/* imagem e descrição */
+.image_one {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    padding: 25px;
+}
+
+.image_one img {
+    border-radius: 50%;
+    border: ridge 10px rgba(147,196,255,1);
+    padding: 0px;
+    margin: 0px;
+}
+
+.image_description {
+    text-align: center;
+    font-family: 'Dancing Script';
+    color: black;
+    font-size: 20px;
+    padding: 0px;
+}
+/* timeline */
+#timeline {
+    display: block; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: rgb(238,196,214);
+    background: linear-gradient(180deg, rgba(238,196,214,1) 29%, rgba(147,196,255,1) 57%, rgba(255,255,255,1) 100%);
+}
+
+.timeline_tittle {
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.fact {
+    padding: 5px;
+    margin-left: 450px;
+    margin-right: 550px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.fact2 {
+    text-align: right;
+    padding: 5px;
+    margin-left: 550px;
+    margin-right: 450px;  
+    border-radius: 5px;
+}
+
+.fact b{
+    border: dashed 1px black;
+    border-radius: 15%;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Bacasime Antique', serif;
+}
+
+.fact2 b {
+    border: dashed 1px black;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: 'Bacasime Antique', serif;
+}
+
+/* imagens */
+#gallery {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(147,196,255,1) 43%, rgba(238,196,214,1) 71%);
+}
+
+.gallery_tittle {
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    height: 330px;
+    padding: 25px;
+}
+
+.photos img {
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+/* resumo de vida */
+#life_resume {
+    background: rgb(238,196,214);
+    background: linear-gradient(180deg, rgba(238,196,214,1) 29%, rgba(147,196,255,1) 57%, rgba(255,255,255,1) 100%);    
+}
+
+.resume_tittle {
+    text-align: center;
+    font-family: 'Dancing Script';
+    font-size: 50px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.resume {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.resume p {
+    font-family: 'Bacasime Antique', serif;
+}
+
+/* wikipedia e footer */
+footer {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(147,196,255,1) 43%, rgba(238,196,214,1) 71%);
+}
+
+.wikipedia {
+    text-align: center;
+    font-size: 20px;
+}
+
+.wikipedia a {
+    text-decoration: none;
+    color: #5c5c5c;
+}
+
+.dedication {
+    text-align: center;
+    font-size: 20px;
+}
+
+.copyrights {
+    text-align: center;
+}
+
+.copyrights a {
+    text-decoration: none;
+    color: #5c5c5c;
+}
